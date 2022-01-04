@@ -1,19 +1,19 @@
 {
-  "base_url": "https://wutali-nextjs-netlify-blog.netlify.app",
-  "site_title": "Next.js Netlify Blog",
-  "site_description": "Next.js blog template for Netlify",
+  "base_url": "https://www.papakaoz.wtf",
+  "site_title": "PapaKaoz blog",
+  "site_description": "The Bug Bounty journey of PapaKaoz",
   "site_keywords": [
     {
-      "keyword": "Next.js"
+      "keyword": "Bug Bounty"
     },
     {
-      "keyword": "Netlify"
+      "keyword": "InfoSec"
     },
     {
-      "keyword": "React"
+      "keyword": "Security"
     }
   ],
-  "posts_per_page": 5,
-  "twitter_account": "@my-account",
-  "github_account": "wutali"
+  "posts_per_page": 10,
+  "twitter_account": "@PapaKaosWtf",
+  "github_account": "PapaKaoz"
 }
