@@ -10,6 +10,7 @@ export default function Navigation() {
     <>
       <Burger active={active} onClick={() => setActive(!active)} />
       <div className={"container " + (active ? "active" : "")}>
+        <img src="/images/logo.png" height="100" />
         <ul>
           <li>
             <Link href="/">
@@ -43,7 +44,7 @@ export default function Navigation() {
               padding: 0;
               position: fixed;
               top: 0;
-              background-color: #fff;
+              background-color: #222;
               display: flex;
               flex-direction: column;
               justify-content: center;
@@ -64,7 +65,10 @@ export default function Navigation() {
               margin-bottom: 0;
             }
             .active {
-              color: #222;
+              color: #fff;
+            }
+            img {
+              display: none;
             }
 
             @media (min-width: 769px) {
@@ -82,6 +86,11 @@ export default function Navigation() {
               li {
                 font-size: 1rem;
                 padding: 0;
+              }
+              img {
+                margin-left: 3em;
+                padding-bottom: 2em;
+                display: block;
               }
             }
           `}

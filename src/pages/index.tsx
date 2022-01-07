@@ -12,11 +12,13 @@ export default function Index() {
       <TwitterCardMeta url={"/"} />
       <div className="container">
         <div>
-          <h1>
-            Hi, We're Next.js & Netlify<span className="fancy">.</span>
-          </h1>
-          <span className="handle">@nextjs-netlify-blog</span>
-          <h2>A blog template with Next.js and Netlify.</h2>
+          <h1>Hello! I'm PapaKaoz!</h1>
+          <span className="handle">@PapaKaozWtf</span>
+          <h2>This is my contribution to the Bug Bounty community</h2>
+          <p>
+            My and the page's background can be found{" "}
+            <a href="/posts/background">here</a>
+          </p>
           <SocialList />
         </div>
       </div>
@@ -34,12 +36,13 @@ export default function Index() {
           font-weight: 500;
         }
         h2 {
-          font-size: 1.75rem;
-          font-weight: 400;
+          font-size: 1.5rem;
+          font-weight: 300;
           line-height: 1.25;
+          color: #a0a0a0;
         }
-        .fancy {
-          color: #15847d;
+        p {
+          color: #555;
         }
         .handle {
           display: inline-block;

@@ -11,3 +11,8 @@ tags:
     name: mdx
   - slug: markdown
     name: markdown
+  - slug: personal
+    name: Personal
+  - slug: bugbounty
+    name: Bug Bounty
+
