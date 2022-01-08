@@ -1,18 +1,7 @@
 tags:
-  - slug: document
-    name: document
-  - slug: mock
-    name: mock
-  - slug: style
-    name: style
-  - slug: license
-    name: license
-  - slug: mdx
-    name: mdx
-  - slug: markdown
-    name: markdown
   - slug: personal
     name: Personal
-  - slug: bugbounty
-    name: Bug Bounty
-
+  - slug: readlist
+    name: Reading/Watch list
+  - slug: diary
+    name: Diary
